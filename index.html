@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xi'an · Eternal Chang'an</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:opsz,wght@14..32,300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="xian-page">
+
+<header class="header-layered">
+  <div class="header-bg"></div>
+  <div class="header-content">
+    <div class="logo">🏯 CHANG'AN</div>
+    <nav>
+      <a href="index.html" class="active">Eternal City</a>
+      <a href="food.html">Imperial Flavors</a>
+      <a href="#" id="wishlistNavBtn" class="wishlist-nav-link">❤️ Wishlist</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero-xian">
+  <div class="hero-text">
+    <h1>Thirteen <span class="gold">Dynasties</span><br>One <span class="gold">Eternal</span> Soul</h1>
+    <p>Xi'an – where the Terracotta Warriors guard the first emperor, and the Tang Dynasty's music still echoes under the lanterns.</p>
+    <div class="hero-badge">UNESCO World Heritage · Silk Road</div>
+  </div>
+  <div class="hero-scroll">⭯ scroll</div>
+</section>
+
+<section class="overlap-grid">
+  <div class="overlap-card favorite-item" data-id="terracotta_army" data-name="Terracotta Army" data-type="attraction" data-image="images/terracotta.jpg">
+    <img src="images/terracotta.jpg" alt="Terracotta Warriors">
+    <div class="card-caption">
+      <h2>⚔️ Terracotta Army</h2>
+      <p>8,000 life-sized warriors buried with Qin Shi Huang – the eighth wonder of the world.</p>
+    </div>
+    <button class="fav-btn" data-fav="terracotta_army">🤍</button>
+  </div>
+  <div class="overlap-card wide favorite-item" data-id="city_wall" data-name="Ming City Wall" data-type="attraction" data-image="images/citywall.jpg">
+    <img src="images/citywall.jpg" alt="Ancient City Wall">
+    <div class="card-caption">
+      <h2>🏰 Ming City Wall</h2>
+      <p>The best-preserved ancient city wall in China – cycle or stroll at sunset.</p>
+    </div>
+    <button class="fav-btn" data-fav="city_wall">🤍</button>
+  </div>
+</section>
+
+<section class="poem-bleed favorite-item" data-id="wild_goose_pagoda" data-name="Giant Wild Goose Pagoda" data-type="attraction" data-image="images/dayanta.jpg">
+  <img src="images/dayanta.jpg" alt="Giant Wild Goose Pagoda">
+  <div class="poem-overlay">
+    <h2>Giant Wild Goose Pagoda</h2>
+    <p>Built in 652 AD to store Buddhist scriptures brought back from India by Xuanzang.</p>
+  </div>
+  <button class="fav-btn" data-fav="wild_goose_pagoda">🤍</button>
+</section>
+
+<section class="mosaic-gallery">
+  <div class="mosaic-title">📜 Starting Point of the Silk Road · Legacy of a Flourishing Era</div>
+  <div class="mosaic-grid">
+    <div class="grid-item favorite-item" data-id="muslim_quarter" data-name="Muslim Quarter" data-type="attraction" data-image="images/muslimquarter.jpg">
+      <img src="images/muslimquarter.jpg" alt="Muslim Quarter">
+      <button class="fav-btn small-fav" data-fav="muslim_quarter">🤍</button>
+    </div>
+    <div class="grid-item favorite-item" data-id="huanchengpark" data-name="City Moat Park" data-type="attraction" data-image="images/huanchengpark.jpg">
+      <img src="images/huanchengpark.jpg" alt="City moat park">
+      <button class="fav-btn small-fav" data-fav="huanchengpark">🤍</button>
+    </div>
+    <div class="grid-item favorite-item" data-id="tangpalace" data-name="Tang Paradise" data-type="attraction" data-image="images/tangpalace.jpg">
+      <img src="images/tangpalace.jpg" alt="Tang Paradise">
+      <button class="fav-btn small-fav" data-fav="tangpalace">🤍</button>
+    </div>
+    <div class="grid-item favorite-item" data-id="belltower" data-name="Bell Tower" data-type="attraction" data-image="images/belltower.jpg">
+      <img src="images/belltower.jpg" alt="Bell Tower">
+      <button class="fav-btn small-fav" data-fav="belltower">🤍</button>
+    </div>
+    <div class="grid-item favorite-item" data-id="greatmosque" data-name="Great Mosque" data-type="attraction" data-image="images/greatmosque.jpg">
+      <img src="images/greatmosque.jpg" alt="Great Mosque">
+      <button class="fav-btn small-fav" data-fav="greatmosque">🤍</button>
+    </div>
+    <div class="grid-item favorite-item" data-id="shuyuanmen" data-name="Shuyuanmen Culture Street" data-type="attraction" data-image="images/shuyuanmen.jpg">
+      <img src="images/shuyuanmen.jpg" alt="Shuyuanmen culture street">
+      <button class="fav-btn small-fav" data-fav="shuyuanmen">🤍</button>
+    </div>
+  </div>
+</section>
+
+<section class="rich-text">
+  <h2>🏮 A Day in Tang Dynasty</h2>
+  <p>Xi'an was once the world's largest city under the Tang Dynasty (618–907 AD). Merchants from Persia, scholars from Korea, and monks from India walked its wide boulevards. Today, the city's nightlife at Datang Everbright City recreates that splendor with light shows and hanfu-clad crowds.</p>
+  <p>Don't miss the Bell Tower at the exact city center – it has witnessed 600 years of history.</p>
+</section>
+
+<section class="interactive-module xian-module">
+  <div class="module-inner">
+    <h2>🎲 Random Legends</h2>
+    <div class="fact-card" id="factDisplay">
+      <p id="funFactText">Click to uncover a forgotten story of Chang'an 🌟</p>
+    </div>
+    <button class="vibrant-btn" id="randomFactBtn">🔍 Unlock Secrets</button>
+  </div>
+</section>
+
+<section class="qr-center xian-qr">
+  <h2>📱 Scan to Explore Xi'an</h2>
+  <img src="images/qr.png" alt="QR code">
+</section>
+
+<footer class="footer-xian">
+  <p>Xi'an Story · Where History Breathes</p>
+  <a href="food.html" class="footer-link">🍜 Taste Xi'an →</a>
+</footer>
+
+<div id="lightbox" class="lightbox">
+  <span class="close-lightbox">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+</div>
+
+<!-- Wishlist Sidebar -->
+<div id="wishlistSidebar" class="wishlist-sidebar">
+  <div class="wishlist-header">
+    <h3>❤️ My Wishlist</h3>
+    <button id="closeWishlistBtn" class="close-wishlist">&times;</button>
+  </div>
+  <div id="wishlistItemsContainer" class="wishlist-items">
+    <p class="empty-wishlist-msg">Your wishlist is empty. Click the 🤍 button on any attraction or dish to save it here.</p>
+  </div>
+  <div class="wishlist-footer">
+    <button id="shareWishlistBtn" class="vibrant-btn small-share">📤 Share Wishlist</button>
+    <button id="clearWishlistBtn" class="vibrant-btn small-clear">🗑️ Clear All</button>
+  </div>
+</div>
+<div id="wishlistOverlay" class="wishlist-overlay"></div>
+
+<!-- Exit Popup Modal -->
+<div id="exitPopup" class="exit-popup">
+  <div class="exit-popup-content">
+    <span class="close-exit-popup">&times;</span>
+    <h3>🍜 Before you leave...</h3>
+    <p>Discover the hidden flavors of Xi'an! Get exclusive food & travel tips straight to your inbox.</p>
+    <input type="email" placeholder="Your email address" id="exitEmailInput">
+    <button id="exitSubscribeBtn" class="vibrant-btn">Stay Inspired ✨</button>
+    <p class="exit-note">No spam, just timeless Chang'an stories.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

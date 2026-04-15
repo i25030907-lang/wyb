@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xi'an Food · A Bite of Chang'an</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:opsz,wght@14..32,300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="xian-page food-xian">
+
+<header class="header-layered">
+  <div class="header-bg"></div>
+  <div class="header-content">
+    <div class="logo">🥢Flavors of the Silk Road</div>
+    <nav>
+      <a href="index.html">Eternal City</a>
+      <a href="food.html" class="active">Imperial Flavors</a>
+      <a href="#" id="wishlistNavBtn" class="wishlist-nav-link">❤️ Wishlist</a>
+    </nav>
+  </div>
+</header>
+
+<section class="food-hero-xian">
+  <div class="food-hero-bg"></div>
+  <div class="food-hero-text">
+    <h1>From Muslim Quarter <span class="gold">to Imperial Table</span></h1>
+    <p>Xi'an's cuisine is a crossroads – Central Plains wheat, Hui Muslim spices, and Tang dynasty legacy. Get ready for a flavor adventure.</p>
+  </div>
+</section>
+
+<section class="dish-showcase favorite-item" data-id="roujiamo" data-name="Roujiamo (Chinese Hamburger)" data-type="food" data-image="images/roujiamo.jpg">
+  <div class="dish-img">
+    <img src="images/roujiamo.jpg" alt="Roujiamo">
+  </div>
+  <div class="dish-desc">
+    <h2>🥙 Roujiamo · Chinese Hamburger</h2>
+    <p>Pita bread stuffed with slow-braised pork, beef, or lamb. Often called the "world's oldest sandwich". The crispy outside and juicy inside make it a Xi'an icon.</p>
+    <div class="dish-tag"># street food</div>
+  </div>
+  <button class="fav-btn" data-fav="roujiamo">🤍</button>
+</section>
+
+<section class="dish-showcase reverse favorite-item" data-id="liangpi" data-name="Liangpi (Cold Noodles)" data-type="food" data-image="images/liangpi.jpg">
+  <div class="dish-img">
+    <img src="images/liangpi.jpg" alt="Liangpi cold noodles">
+  </div>
+  <div class="dish-desc">
+    <h2>🍜 Liangpi · Cold Noodles with Chili</h2>
+    <p>Hand-ripped wheat starch noodles tossed with cucumber, bean sprouts, and a fiery chili oil. Perfect for hot summer days or any day you crave a tangy kick.</p>
+    <div class="dish-tag"># refreshing # spicy</div>
+  </div>
+  <button class="fav-btn" data-fav="liangpi">🤍</button>
+</section>
+
+<section class="food-full favorite-item" data-id="muslim_quarter_night" data-name="Muslim Quarter Night Market" data-type="food" data-image="images/muslimquarter_night.jpg">
+  <img src="images/muslimquarter_night.jpg" alt="Muslim Quarter at night">
+  <div class="food-full-caption">
+    <h2>✨ Muslim Quarter</h2>
+    <p>Over 300 food stalls – from persimmon cakes to walnut cookies, grilled lamb skewers to sticky rice pastries.</p>
+  </div>
+  <button class="fav-btn" data-fav="muslim_quarter_night">🤍</button>
+</section>
+
+<section class="dish-showcase favorite-item" data-id="yangrou_paomo" data-name="Yangrou Paomo (Mutton Stew)" data-type="food" data-image="images/paomo.jpg">
+  <div class="dish-img">
+    <img src="images/paomo.jpg" alt="Yangrou Paomo">
+  </div>
+  <div class="dish-desc">
+    <h2>🍲 Yangrou Paomo · Crumbled Flatbread in Mutton Stew</h2>
+    <p>A true Xi'an ritual: you crumble the flatbread into small pieces, then the kitchen adds rich mutton broth and meat. Eat with pickled garlic and chili sauce.</p>
+    <div class="dish-tag"># interactive meal # hearty</div>
+  </div>
+  <button class="fav-btn" data-fav="yangrou_paomo">🤍</button>
+</section>
+
+<section class="snack-gallery">
+  <div class="gallery-header">🍢 More Delicacies</div>
+  <div class="snack-grid">
+    <div class="snack-item favorite-item" data-id="jujube_cake" data-name="Jujube Cake" data-type="food" data-image="images/zaozipudding.jpg">
+      <img src="images/zaozipudding.jpg" alt="Jujube cake">
+      <button class="fav-btn small-fav" data-fav="jujube_cake">🤍</button>
+    </div>
+    <div class="snack-item favorite-item" data-id="guantangbao" data-name="Guan Tang Bao (Soup Dumplings)" data-type="food" data-image="images/guantangbao.jpg">
+      <img src="images/guantangbao.jpg" alt="Guan Tang Bao (soup dumplings)">
+      <button class="fav-btn small-fav" data-fav="guantangbao">🤍</button>
+    </div>
+    <div class="snack-item favorite-item" data-id="youpomian" data-name="Youpo Noodles" data-type="food" data-image="images/youpomian.jpg">
+      <img src="images/youpomian.jpg" alt="Youpo Noodles">
+      <button class="fav-btn small-fav" data-fav="youpomian">🤍</button>
+    </div>
+    <div class="snack-item favorite-item" data-id="liangfen" data-name="Liangfen Jelly" data-type="food" data-image="images/liangfen.jpg">
+      <img src="images/liangfen.jpg" alt="Liangfen jelly">
+      <button class="fav-btn small-fav" data-fav="liangfen">🤍</button>
+    </div>
+  </div>
+</section>
+
+<section class="rich-text">
+  <h2>🌉 Taste of Silk Road</h2>
+  <p>Xi'an was the eastern terminus of the Silk Road, bringing spices, nuts, and cooking techniques from Central Asia. That's why you'll find cumin-heavy lamb skewers, naan-like bread, and a love for pomegranates (imported from Persia over 2000 years ago).</p>
+  <p>Join a local food tour and discover why Xi'an is often called China's "food capital of the north".</p>
+</section>
+
+<section class="interactive-module xian-module">
+  <div class="module-inner">
+    <h2>🎲 Random Food Bites</h2>
+    <div class="fact-card" id="foodFactDisplay">
+      <p id="funFactText">Click to reveal a tasty legend 🥢</p>
+    </div>
+    <button class="vibrant-btn" id="randomFoodFactBtn">🍜 Random Food Secrets</button>
+  </div>
+</section>
+
+<footer class="footer-xian">
+  <a href="index.html" class="footer-link">🏠 Back to Chang'an</a>
+  <p>Xi'an Food Stories</p>
+</footer>
+
+<div id="lightbox" class="lightbox">
+  <span class="close-lightbox">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+</div>
+
+<!-- Wishlist Sidebar (same as index) -->
+<div id="wishlistSidebar" class="wishlist-sidebar">
+  <div class="wishlist-header">
+    <h3>❤️ My Wishlist</h3>
+    <button id="closeWishlistBtn" class="close-wishlist">&times;</button>
+  </div>
+  <div id="wishlistItemsContainer" class="wishlist-items">
+    <p class="empty-wishlist-msg">Your wishlist is empty. Click the 🤍 button on any dish or place to save it here.</p>
+  </div>
+  <div class="wishlist-footer">
+    <button id="shareWishlistBtn" class="vibrant-btn small-share">📤 Share Wishlist</button>
+    <button id="clearWishlistBtn" class="vibrant-btn small-clear">🗑️ Clear All</button>
+  </div>
+</div>
+<div id="wishlistOverlay" class="wishlist-overlay"></div>
+
+<!-- Exit Popup Modal -->
+<div id="exitPopup" class="exit-popup">
+  <div class="exit-popup-content">
+    <span class="close-exit-popup">&times;</span>
+    <h3>🍜 Before you leave...</h3>
+    <p>Discover the hidden flavors of Xi'an! Get exclusive food & travel tips straight to your inbox.</p>
+    <input type="email" placeholder="Your email address" id="exitEmailInput">
+    <button id="exitSubscribeBtn" class="vibrant-btn">Stay Inspired ✨</button>
+    <p class="exit-note">No spam, just timeless Chang'an stories.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
